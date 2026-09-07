@@ -10,14 +10,14 @@
       "maxDuration": 10
     }
   },
-  "redirects": [
+  "rewrites": [
     {
       "source": "/",
-      "destination": "/dashboard",
-      "type": "rewrite"
+      "destination": "/dashboard"
     }
   ],
   "env": {
     "NODE_ENV": "production"
   }
 }
+
